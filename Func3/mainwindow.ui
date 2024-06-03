@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>60</y>
+      <width>661</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>50</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>f(x)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sbFrom">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>570</y>
+      <width>165</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::UpDownArrows</enum>
+    </property>
+    <property name="accelerated">
+     <bool>true</bool>
+    </property>
+    <property name="correctionMode">
+     <enum>QAbstractSpinBox::CorrectToNearestValue</enum>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>5.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sbTo">
+    <property name="geometry">
+     <rect>
+      <x>606</x>
+      <y>570</y>
+      <width>165</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="accelerated">
+     <bool>true</bool>
+    </property>
+    <property name="correctionMode">
+     <enum>QAbstractSpinBox::CorrectToNearestValue</enum>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>5.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbSymmetry">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>573</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>20</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/stock_link.png</normaloff>icons/stock_link.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbSymmetry_2">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>573</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>20</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/stock_link.png</normaloff>icons/stock_link.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sbFrom_2">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>570</y>
+      <width>165</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::UpDownArrows</enum>
+    </property>
+    <property name="accelerated">
+     <bool>true</bool>
+    </property>
+    <property name="correctionMode">
+     <enum>QAbstractSpinBox::CorrectToNearestValue</enum>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>5.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sbTo_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>570</y>
+      <width>165</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="accelerated">
+     <bool>true</bool>
+    </property>
+    <property name="correctionMode">
+     <enum>QAbstractSpinBox::CorrectToNearestValue</enum>
+    </property>
+    <property name="minimum">
+     <double>-1000.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>1000.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>5.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>10.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>570</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>x</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
